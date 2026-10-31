@@ -1,101 +1,166 @@
 id,title,provider,domain,skills,level,prerequisites,duration_hours,price_inr,rating,format,url
-1,Python for Everybody,Coursera (U. Michigan),programming,"python,programming basics",beginner,"",60,0,4.8,self-paced,https://www.coursera.org/specializations/python
-2,Programming Data Structures and Algorithms using Python,NPTEL (IIT Madras),programming,"python,data structures,algorithms",intermediate,"python",48,0,4.6,cohort,https://nptel.ac.in
-3,CS50 Introduction to Computer Science,edX (Harvard),programming,"programming basics,c,python,algorithms",beginner,"",100,0,4.9,self-paced,https://cs50.harvard.edu
-4,Complete Python Bootcamp,Udemy,programming,"python,oop,file handling",beginner,"",22,499,4.6,self-paced,https://www.udemy.com
-5,Python Data Science Toolbox,DataCamp,data science,"python,pandas,numpy",beginner,"python",8,0,4.4,self-paced,https://www.datacamp.com
-6,Data Analysis with Python,freeCodeCamp,data science,"pandas,numpy,matplotlib,data analysis",beginner,"python",30,0,4.5,self-paced,https://www.freecodecamp.org
-7,Pandas Tutorial,Kaggle Learn,data science,"pandas,data analysis",beginner,"python",4,0,4.5,self-paced,https://www.kaggle.com/learn/pandas
-8,Statistics with Python Specialization,Coursera (U. Michigan),data science,"statistics,probability,hypothesis testing,python",intermediate,"python",80,0,4.6,self-paced,https://www.coursera.org/specializations/statistics-with-python
-9,Introduction to Probability and Statistics,NPTEL (IIT Kharagpur),data science,"statistics,probability",beginner,"",40,0,4.4,cohort,https://nptel.ac.in
+1,Python for Everybody,Coursera (U. Michigan),programming,"python,programming basics",beginner,,60,0,4.8,self-paced,https://www.coursera.org/specializations/python
+2,Programming Data Structures and Algorithms using Python,NPTEL (IIT Madras),programming,"python,data structures,algorithms",intermediate,python,48,0,4.6,cohort,https://nptel.ac.in
+3,CS50 Introduction to Computer Science,edX (Harvard),programming,"programming basics,c,python,algorithms",beginner,,100,0,4.9,self-paced,https://cs50.harvard.edu
+4,Complete Python Bootcamp,Udemy,programming,"python,oop,file handling",beginner,,22,499,4.6,self-paced,https://www.udemy.com
+5,Python Data Science Toolbox,DataCamp,data science,"python,pandas,numpy",beginner,python,8,0,4.4,self-paced,https://www.datacamp.com
+6,Data Analysis with Python,freeCodeCamp,data science,"pandas,numpy,matplotlib,data analysis",beginner,python,30,0,4.5,self-paced,https://www.freecodecamp.org
+7,Pandas Tutorial,Kaggle Learn,data science,"pandas,data analysis",beginner,python,4,0,4.5,self-paced,https://www.kaggle.com/learn/pandas
+8,Statistics with Python Specialization,Coursera (U. Michigan),data science,"statistics,probability,hypothesis testing,python",intermediate,python,80,0,4.6,self-paced,https://www.coursera.org/specializations/statistics-with-python
+9,Introduction to Probability and Statistics,NPTEL (IIT Kharagpur),data science,"statistics,probability",beginner,,40,0,4.4,cohort,https://nptel.ac.in
 10,Machine Learning Specialization,Coursera (DeepLearning.AI),machine learning,"machine learning,supervised learning,unsupervised learning,python",intermediate,"python,statistics",90,0,4.9,self-paced,https://www.coursera.org/specializations/machine-learning-introduction
 11,Intro to Machine Learning,Kaggle Learn,machine learning,"machine learning,scikit-learn",beginner,"python,pandas",3,0,4.4,self-paced,https://www.kaggle.com/learn/intro-to-machine-learning
 12,Introduction to Machine Learning,NPTEL (IIT Madras),machine learning,"machine learning,statistics,python",intermediate,"python,statistics,linear algebra",48,0,4.5,cohort,https://nptel.ac.in
-13,Machine Learning A-Z,Udemy,machine learning,"machine learning,python,r,scikit-learn",beginner,"python",44,599,4.5,self-paced,https://www.udemy.com
+13,Machine Learning A-Z,Udemy,machine learning,"machine learning,python,r,scikit-learn",beginner,python,44,599,4.5,self-paced,https://www.udemy.com
 14,Deep Learning Specialization,Coursera (DeepLearning.AI),deep learning,"deep learning,neural networks,tensorflow,cnn,rnn",advanced,"machine learning,python,linear algebra",120,0,4.9,self-paced,https://www.coursera.org/specializations/deep-learning
 15,Practical Deep Learning for Coders,fast.ai,deep learning,"deep learning,pytorch,computer vision,nlp",intermediate,"python,machine learning",60,0,4.8,self-paced,https://course.fast.ai
 16,Deep Learning,NPTEL (IIT Ropar),deep learning,"deep learning,neural networks,backpropagation",advanced,"machine learning,linear algebra",48,0,4.6,cohort,https://nptel.ac.in
 17,Natural Language Processing Specialization,Coursera (DeepLearning.AI),nlp,"nlp,transformers,text classification,python",advanced,"deep learning,python",80,0,4.6,self-paced,https://www.coursera.org/specializations/natural-language-processing
 18,Hugging Face NLP Course,Hugging Face,nlp,"nlp,transformers,hugging face,pytorch",intermediate,"python,deep learning",30,0,4.7,self-paced,https://huggingface.co/learn/nlp-course
 19,Generative AI with Large Language Models,Coursera (DeepLearning.AI/AWS),generative ai,"llm,generative ai,prompt engineering,fine-tuning",intermediate,"python,machine learning",16,0,4.7,self-paced,https://www.coursera.org/learn/generative-ai-with-llms
-20,LangChain for LLM Application Development,DeepLearning.AI,generative ai,"langchain,llm,rag,agents",intermediate,"python",2,0,4.6,self-paced,https://www.deeplearning.ai/short-courses
-21,SQL for Data Science,Coursera (UC Davis),data engineering,"sql,databases,data analysis",beginner,"",20,0,4.6,self-paced,https://www.coursera.org/learn/sql-for-data-science
-22,Intro to SQL,Kaggle Learn,data engineering,"sql,bigquery",beginner,"",3,0,4.5,self-paced,https://www.kaggle.com/learn/intro-to-sql
-23,Database Management System,NPTEL (IIT Kharagpur),data engineering,"sql,databases,normalization,dbms",intermediate,"programming basics",48,0,4.5,cohort,https://nptel.ac.in
-24,The Complete SQL Bootcamp,Udemy,data engineering,"sql,postgresql",beginner,"",9,499,4.7,self-paced,https://www.udemy.com
+20,LangChain for LLM Application Development,DeepLearning.AI,generative ai,"langchain,llm,rag,agents",intermediate,python,2,0,4.6,self-paced,https://www.deeplearning.ai/short-courses
+21,SQL for Data Science,Coursera (UC Davis),data engineering,"sql,databases,data analysis",beginner,,20,0,4.6,self-paced,https://www.coursera.org/learn/sql-for-data-science
+22,Intro to SQL,Kaggle Learn,data engineering,"sql,bigquery",beginner,,3,0,4.5,self-paced,https://www.kaggle.com/learn/intro-to-sql
+23,Database Management System,NPTEL (IIT Kharagpur),data engineering,"sql,databases,normalization,dbms",intermediate,programming basics,48,0,4.5,cohort,https://nptel.ac.in
+24,The Complete SQL Bootcamp,Udemy,data engineering,"sql,postgresql",beginner,,9,499,4.7,self-paced,https://www.udemy.com
 25,Data Engineering Zoomcamp,DataTalks.Club,data engineering,"data engineering,docker,airflow,spark,bigquery,dbt",intermediate,"python,sql",120,0,4.7,cohort,https://github.com/DataTalksClub/data-engineering-zoomcamp
 26,Big Data Computing,NPTEL (IIT Patna),data engineering,"big data,hadoop,spark",intermediate,"programming basics,sql",48,0,4.3,cohort,https://nptel.ac.in
-27,Data Visualization,Kaggle Learn,data science,"data visualization,seaborn,matplotlib",beginner,"python",4,0,4.4,self-paced,https://www.kaggle.com/learn/data-visualization
-28,Google Data Analytics Professional Certificate,Coursera (Google),data science,"data analysis,sql,tableau,r,spreadsheets",beginner,"",180,0,4.8,self-paced,https://www.coursera.org/professional-certificates/google-data-analytics
-29,Tableau 2024 A-Z,Udemy,data science,"tableau,data visualization,dashboards",beginner,"",9,499,4.6,self-paced,https://www.udemy.com
-30,Power BI Desktop for Business Intelligence,Udemy,data science,"power bi,data visualization,dax",beginner,"",21,499,4.6,self-paced,https://www.udemy.com
-31,Responsive Web Design,freeCodeCamp,web development,"html,css,responsive design",beginner,"",300,0,4.7,self-paced,https://www.freecodecamp.org
-32,JavaScript Algorithms and Data Structures,freeCodeCamp,web development,"javascript,algorithms,data structures",beginner,"html",300,0,4.7,self-paced,https://www.freecodecamp.org
-33,The Odin Project Full Stack JavaScript,The Odin Project,web development,"html,css,javascript,node.js,react,git",beginner,"",400,0,4.8,self-paced,https://www.theodinproject.com
+27,Data Visualization,Kaggle Learn,data science,"data visualization,seaborn,matplotlib",beginner,python,4,0,4.4,self-paced,https://www.kaggle.com/learn/data-visualization
+28,Google Data Analytics Professional Certificate,Coursera (Google),data science,"data analysis,sql,tableau,r,spreadsheets",beginner,,180,0,4.8,self-paced,https://www.coursera.org/professional-certificates/google-data-analytics
+29,Tableau 2024 A-Z,Udemy,data science,"tableau,data visualization,dashboards",beginner,,9,499,4.6,self-paced,https://www.udemy.com
+30,Power BI Desktop for Business Intelligence,Udemy,data science,"power bi,data visualization,dax",beginner,,21,499,4.6,self-paced,https://www.udemy.com
+31,Responsive Web Design,freeCodeCamp,web development,"html,css,responsive design",beginner,,300,0,4.7,self-paced,https://www.freecodecamp.org
+32,JavaScript Algorithms and Data Structures,freeCodeCamp,web development,"javascript,algorithms,data structures",beginner,html,300,0,4.7,self-paced,https://www.freecodecamp.org
+33,The Odin Project Full Stack JavaScript,The Odin Project,web development,"html,css,javascript,node.js,react,git",beginner,,400,0,4.8,self-paced,https://www.theodinproject.com
 34,React - The Complete Guide,Udemy,web development,"react,javascript,redux,next.js",intermediate,"javascript,html,css",68,499,4.7,self-paced,https://www.udemy.com
-35,Full Stack Open,University of Helsinki,web development,"react,node.js,express,mongodb,graphql,typescript",intermediate,"javascript",200,0,4.8,self-paced,https://fullstackopen.com
-36,Meta Front-End Developer Professional Certificate,Coursera (Meta),web development,"html,css,javascript,react,ui design",beginner,"",210,0,4.7,self-paced,https://www.coursera.org/professional-certificates/meta-front-end-developer
-37,Node.js The Complete Guide,Udemy,web development,"node.js,express,mongodb,rest api",intermediate,"javascript",40,499,4.6,self-paced,https://www.udemy.com
+35,Full Stack Open,University of Helsinki,web development,"react,node.js,express,mongodb,graphql,typescript",intermediate,javascript,200,0,4.8,self-paced,https://fullstackopen.com
+36,Meta Front-End Developer Professional Certificate,Coursera (Meta),web development,"html,css,javascript,react,ui design",beginner,,210,0,4.7,self-paced,https://www.coursera.org/professional-certificates/meta-front-end-developer
+37,Node.js The Complete Guide,Udemy,web development,"node.js,express,mongodb,rest api",intermediate,javascript,40,499,4.6,self-paced,https://www.udemy.com
 38,Django for Everybody,Coursera (U. Michigan),web development,"django,python,web development,sql",intermediate,"python,html",60,0,4.7,self-paced,https://www.coursera.org/specializations/django
-39,FastAPI - The Complete Course,Udemy,web development,"fastapi,python,rest api,authentication",intermediate,"python",20,499,4.6,self-paced,https://www.udemy.com
-40,Introduction to Internet of Things,NPTEL (IIT Kharagpur),iot,"iot,sensors,arduino,raspberry pi",beginner,"programming basics",48,0,4.4,cohort,https://nptel.ac.in
-41,AWS Cloud Practitioner Essentials,AWS Skill Builder,cloud,"aws,cloud computing,cloud fundamentals",beginner,"",6,0,4.6,self-paced,https://skillbuilder.aws
+39,FastAPI - The Complete Course,Udemy,web development,"fastapi,python,rest api,authentication",intermediate,python,20,499,4.6,self-paced,https://www.udemy.com
+40,Introduction to Internet of Things,NPTEL (IIT Kharagpur),iot,"iot,sensors,arduino,raspberry pi",beginner,programming basics,48,0,4.4,cohort,https://nptel.ac.in
+41,AWS Cloud Practitioner Essentials,AWS Skill Builder,cloud,"aws,cloud computing,cloud fundamentals",beginner,,6,0,4.6,self-paced,https://skillbuilder.aws
 42,Cloud Computing,NPTEL (IIT Kharagpur),cloud,"cloud computing,virtualization,distributed systems",intermediate,"operating systems,networking",48,0,4.4,cohort,https://nptel.ac.in
-43,Google Cloud Digital Leader Training,Coursera (Google Cloud),cloud,"gcp,cloud computing",beginner,"",20,0,4.7,self-paced,https://www.coursera.org
-44,Microsoft Azure Fundamentals AZ-900,Microsoft Learn,cloud,"azure,cloud computing",beginner,"",10,0,4.6,self-paced,https://learn.microsoft.com
+43,Google Cloud Digital Leader Training,Coursera (Google Cloud),cloud,"gcp,cloud computing",beginner,,20,0,4.7,self-paced,https://www.coursera.org
+44,Microsoft Azure Fundamentals AZ-900,Microsoft Learn,cloud,"azure,cloud computing",beginner,,10,0,4.6,self-paced,https://learn.microsoft.com
 45,Ultimate AWS Certified Solutions Architect Associate,Udemy,cloud,"aws,ec2,s3,vpc,architecture",intermediate,"aws,networking",27,499,4.7,self-paced,https://www.udemy.com
 46,Docker and Kubernetes: The Complete Guide,Udemy,devops,"docker,kubernetes,ci/cd,containers",intermediate,"linux,programming basics",22,499,4.6,self-paced,https://www.udemy.com
-47,DevOps with Docker,University of Helsinki,devops,"docker,docker compose,containers",beginner,"linux",50,0,4.6,self-paced,https://devopswithdocker.com
-48,Introduction to Linux,edX (Linux Foundation),devops,"linux,shell,command line",beginner,"",60,0,4.5,self-paced,https://www.edx.org
-49,Git and GitHub for Beginners,freeCodeCamp,devops,"git,github,version control",beginner,"",2,0,4.6,self-paced,https://www.freecodecamp.org
-50,Terraform Associate Prep,HashiCorp Learn,devops,"terraform,infrastructure as code,aws",intermediate,"cloud computing",15,0,4.5,self-paced,https://developer.hashicorp.com
-51,Google Cybersecurity Professional Certificate,Coursera (Google),cybersecurity,"cybersecurity,linux,sql,siem,python",beginner,"",170,0,4.8,self-paced,https://www.coursera.org/professional-certificates/google-cybersecurity
+47,DevOps with Docker,University of Helsinki,devops,"docker,docker compose,containers",beginner,linux,50,0,4.6,self-paced,https://devopswithdocker.com
+48,Introduction to Linux,edX (Linux Foundation),devops,"linux,shell,command line",beginner,,60,0,4.5,self-paced,https://www.edx.org
+49,Git and GitHub for Beginners,freeCodeCamp,devops,"git,github,version control",beginner,,2,0,4.6,self-paced,https://www.freecodecamp.org
+50,Terraform Associate Prep,HashiCorp Learn,devops,"terraform,infrastructure as code,aws",intermediate,cloud computing,15,0,4.5,self-paced,https://developer.hashicorp.com
+51,Google Cybersecurity Professional Certificate,Coursera (Google),cybersecurity,"cybersecurity,linux,sql,siem,python",beginner,,170,0,4.8,self-paced,https://www.coursera.org/professional-certificates/google-cybersecurity
 52,Ethical Hacking,NPTEL (IIT Kharagpur),cybersecurity,"ethical hacking,networking,penetration testing",intermediate,"networking,linux",48,0,4.5,cohort,https://nptel.ac.in
-53,TryHackMe Pre Security Path,TryHackMe,cybersecurity,"networking,linux,web security",beginner,"",40,0,4.7,self-paced,https://tryhackme.com
-54,Computer Networks and Internet Protocol,NPTEL (IIT Kharagpur),networking,"networking,tcp/ip,protocols",intermediate,"programming basics",48,0,4.5,cohort,https://nptel.ac.in
-55,CompTIA Security+ Complete Course,Udemy,cybersecurity,"security+,cybersecurity,risk management",intermediate,"networking",22,499,4.7,self-paced,https://www.udemy.com
-56,Android Basics with Compose,Google Developers,mobile development,"android,kotlin,jetpack compose",beginner,"programming basics",80,0,4.6,self-paced,https://developer.android.com/courses
-57,Flutter and Dart The Complete Guide,Udemy,mobile development,"flutter,dart,mobile apps,firebase",beginner,"programming basics",30,499,4.6,self-paced,https://www.udemy.com
+53,TryHackMe Pre Security Path,TryHackMe,cybersecurity,"networking,linux,web security",beginner,,40,0,4.7,self-paced,https://tryhackme.com
+54,Computer Networks and Internet Protocol,NPTEL (IIT Kharagpur),networking,"networking,tcp/ip,protocols",intermediate,programming basics,48,0,4.5,cohort,https://nptel.ac.in
+55,CompTIA Security+ Complete Course,Udemy,cybersecurity,"security+,cybersecurity,risk management",intermediate,networking,22,499,4.7,self-paced,https://www.udemy.com
+56,Android Basics with Compose,Google Developers,mobile development,"android,kotlin,jetpack compose",beginner,programming basics,80,0,4.6,self-paced,https://developer.android.com/courses
+57,Flutter and Dart The Complete Guide,Udemy,mobile development,"flutter,dart,mobile apps,firebase",beginner,programming basics,30,499,4.6,self-paced,https://www.udemy.com
 58,iOS App Development with Swift,Stanford CS193p,mobile development,"swift,swiftui,ios",intermediate,"programming basics,oop",50,0,4.8,self-paced,https://cs193p.sites.stanford.edu
 59,React Native The Practical Guide,Udemy,mobile development,"react native,javascript,mobile apps",intermediate,"react,javascript",28,499,4.6,self-paced,https://www.udemy.com
-60,Linear Algebra for Machine Learning,Coursera (Imperial College),mathematics,"linear algebra,vectors,matrices",beginner,"",20,0,4.6,self-paced,https://www.coursera.org/learn/linear-algebra-machine-learning
-61,Essence of Linear Algebra,3Blue1Brown (YouTube),mathematics,"linear algebra",beginner,"",4,0,4.9,self-paced,https://www.youtube.com/3blue1brown
-62,Discrete Mathematics,NPTEL (IIT Ropar),mathematics,"discrete mathematics,logic,graph theory",intermediate,"",48,0,4.4,cohort,https://nptel.ac.in
+60,Linear Algebra for Machine Learning,Coursera (Imperial College),mathematics,"linear algebra,vectors,matrices",beginner,,20,0,4.6,self-paced,https://www.coursera.org/learn/linear-algebra-machine-learning
+61,Essence of Linear Algebra,3Blue1Brown (YouTube),mathematics,linear algebra,beginner,,4,0,4.9,self-paced,https://www.youtube.com/3blue1brown
+62,Discrete Mathematics,NPTEL (IIT Ropar),mathematics,"discrete mathematics,logic,graph theory",intermediate,,48,0,4.4,cohort,https://nptel.ac.in
 63,Operating Systems,NPTEL (IIT Madras),computer science,"operating systems,processes,memory management",intermediate,"c,programming basics",48,0,4.5,cohort,https://nptel.ac.in
 64,Design and Analysis of Algorithms,NPTEL (Chennai Mathematical Institute),computer science,"algorithms,complexity,dynamic programming",advanced,"data structures,programming basics",40,0,4.6,cohort,https://nptel.ac.in
-65,Grokking the Coding Interview,Educative,computer science,"algorithms,data structures,interview prep",intermediate,"data structures",40,2500,4.6,self-paced,https://www.educative.io
+65,Grokking the Coding Interview,Educative,computer science,"algorithms,data structures,interview prep",intermediate,data structures,40,2500,4.6,self-paced,https://www.educative.io
 66,System Design Primer,GitHub (open source),computer science,"system design,scalability,distributed systems",advanced,"programming basics,databases",30,0,4.8,self-paced,https://github.com/donnemartin/system-design-primer
 67,Introduction to Blockchain Technology,NPTEL (IIT Kharagpur),blockchain,"blockchain,cryptography,smart contracts",intermediate,"programming basics,cryptography",48,0,4.3,cohort,https://nptel.ac.in
-68,Solidity Smart Contract Development,Cyfrin Updraft,blockchain,"solidity,ethereum,smart contracts",intermediate,"programming basics",30,0,4.7,self-paced,https://updraft.cyfrin.io
-69,Product Management Fundamentals,Udemy,business,"product management,roadmaps,user research",beginner,"",10,499,4.5,self-paced,https://www.udemy.com
-70,Digital Marketing Specialization,Coursera (U. Illinois),business,"digital marketing,seo,analytics",beginner,"",120,0,4.6,self-paced,https://www.coursera.org/specializations/digital-marketing
-71,Financial Markets,Coursera (Yale),business,"finance,investing,markets",beginner,"",33,0,4.8,self-paced,https://www.coursera.org/learn/financial-markets
-72,Excel Skills for Business,Coursera (Macquarie),business,"excel,spreadsheets,data analysis",beginner,"",100,0,4.8,self-paced,https://www.coursera.org/specializations/excel
-73,UI/UX Design Specialization,Coursera (CalArts),design,"ui design,ux design,figma,prototyping",beginner,"",60,0,4.7,self-paced,https://www.coursera.org/specializations/ui-ux-design
-74,Google UX Design Professional Certificate,Coursera (Google),design,"ux design,figma,user research,wireframing",beginner,"",200,0,4.8,self-paced,https://www.coursera.org/professional-certificates/google-ux-design
+68,Solidity Smart Contract Development,Cyfrin Updraft,blockchain,"solidity,ethereum,smart contracts",intermediate,programming basics,30,0,4.7,self-paced,https://updraft.cyfrin.io
+69,Product Management Fundamentals,Udemy,business,"product management,roadmaps,user research",beginner,,10,499,4.5,self-paced,https://www.udemy.com
+70,Digital Marketing Specialization,Coursera (U. Illinois),business,"digital marketing,seo,analytics",beginner,,120,0,4.6,self-paced,https://www.coursera.org/specializations/digital-marketing
+71,Financial Markets,Coursera (Yale),business,"finance,investing,markets",beginner,,33,0,4.8,self-paced,https://www.coursera.org/learn/financial-markets
+72,Excel Skills for Business,Coursera (Macquarie),business,"excel,spreadsheets,data analysis",beginner,,100,0,4.8,self-paced,https://www.coursera.org/specializations/excel
+73,UI/UX Design Specialization,Coursera (CalArts),design,"ui design,ux design,figma,prototyping",beginner,,60,0,4.7,self-paced,https://www.coursera.org/specializations/ui-ux-design
+74,Google UX Design Professional Certificate,Coursera (Google),design,"ux design,figma,user research,wireframing",beginner,,200,0,4.8,self-paced,https://www.coursera.org/professional-certificates/google-ux-design
 75,Computer Vision Basics,Coursera (U. Buffalo),computer vision,"computer vision,image processing,opencv",intermediate,"python,linear algebra",15,0,4.3,self-paced,https://www.coursera.org
-76,OpenCV Bootcamp,OpenCV University,computer vision,"opencv,computer vision,python",beginner,"python",12,0,4.5,self-paced,https://opencv.org/university
+76,OpenCV Bootcamp,OpenCV University,computer vision,"opencv,computer vision,python",beginner,python,12,0,4.5,self-paced,https://opencv.org/university
 77,MLOps Specialization,Coursera (DeepLearning.AI),mlops,"mlops,model deployment,tensorflow,ci/cd",advanced,"machine learning,python",80,0,4.6,self-paced,https://www.coursera.org/specializations/machine-learning-engineering-for-production-mlops
 78,MLOps Zoomcamp,DataTalks.Club,mlops,"mlops,mlflow,docker,model deployment",intermediate,"python,machine learning",60,0,4.7,cohort,https://github.com/DataTalksClub/mlops-zoomcamp
 79,Reinforcement Learning,NPTEL (IIT Madras),reinforcement learning,"reinforcement learning,markov decision processes,q-learning",advanced,"probability,machine learning,python",48,0,4.5,cohort,https://nptel.ac.in
 80,Hugging Face Deep RL Course,Hugging Face,reinforcement learning,"reinforcement learning,pytorch,gymnasium",intermediate,"python,deep learning",30,0,4.6,self-paced,https://huggingface.co/learn/deep-rl-course
-81,Java Programming and Software Engineering Fundamentals,Coursera (Duke),programming,"java,oop,software engineering",beginner,"",100,0,4.6,self-paced,https://www.coursera.org/specializations/java-programming
-82,Programming in Java,NPTEL (IIT Kharagpur),programming,"java,oop",beginner,"programming basics",48,0,4.5,cohort,https://nptel.ac.in
-83,Spring Boot 3 and Spring Framework 6,Udemy,web development,"spring boot,java,rest api,microservices",intermediate,"java",36,499,4.6,self-paced,https://www.udemy.com
-84,C Programming,NPTEL (IIT Kharagpur),programming,"c,programming basics,pointers",beginner,"",48,0,4.5,cohort,https://nptel.ac.in
-85,Learn Go with Tests,Open source,programming,"go,testing,tdd",intermediate,"programming basics",20,0,4.7,self-paced,https://quii.gitbook.io/learn-go-with-tests
-86,The Rust Programming Language Book,Rust Foundation,programming,"rust,systems programming,memory safety",intermediate,"programming basics",40,0,4.8,self-paced,https://doc.rust-lang.org/book
-87,Software Testing,NPTEL (IIT Kharagpur),software engineering,"software testing,test design,automation",intermediate,"programming basics",48,0,4.3,cohort,https://nptel.ac.in
-88,Selenium WebDriver with Java,Udemy,software engineering,"selenium,java,test automation",intermediate,"java",50,499,4.6,self-paced,https://www.udemy.com
-89,Agile with Atlassian Jira,Coursera (Atlassian),software engineering,"agile,scrum,jira",beginner,"",12,0,4.7,self-paced,https://www.coursera.org/learn/agile-atlassian-jira
-90,Prompt Engineering for Developers,DeepLearning.AI,generative ai,"prompt engineering,llm,openai api",beginner,"python",2,0,4.6,self-paced,https://www.deeplearning.ai/short-courses
+81,Java Programming and Software Engineering Fundamentals,Coursera (Duke),programming,"java,oop,software engineering",beginner,,100,0,4.6,self-paced,https://www.coursera.org/specializations/java-programming
+82,Programming in Java,NPTEL (IIT Kharagpur),programming,"java,oop",beginner,programming basics,48,0,4.5,cohort,https://nptel.ac.in
+83,Spring Boot 3 and Spring Framework 6,Udemy,web development,"spring boot,java,rest api,microservices",intermediate,java,36,499,4.6,self-paced,https://www.udemy.com
+84,C Programming,NPTEL (IIT Kharagpur),programming,"c,programming basics,pointers",beginner,,48,0,4.5,cohort,https://nptel.ac.in
+85,Learn Go with Tests,Open source,programming,"go,testing,tdd",intermediate,programming basics,20,0,4.7,self-paced,https://quii.gitbook.io/learn-go-with-tests
+86,The Rust Programming Language Book,Rust Foundation,programming,"rust,systems programming,memory safety",intermediate,programming basics,40,0,4.8,self-paced,https://doc.rust-lang.org/book
+87,Software Testing,NPTEL (IIT Kharagpur),software engineering,"software testing,test design,automation",intermediate,programming basics,48,0,4.3,cohort,https://nptel.ac.in
+88,Selenium WebDriver with Java,Udemy,software engineering,"selenium,java,test automation",intermediate,java,50,499,4.6,self-paced,https://www.udemy.com
+89,Agile with Atlassian Jira,Coursera (Atlassian),software engineering,"agile,scrum,jira",beginner,,12,0,4.7,self-paced,https://www.coursera.org/learn/agile-atlassian-jira
+90,Prompt Engineering for Developers,DeepLearning.AI,generative ai,"prompt engineering,llm,openai api",beginner,python,2,0,4.6,self-paced,https://www.deeplearning.ai/short-courses
 91,AI Agents in LangGraph,DeepLearning.AI,generative ai,"langgraph,agents,llm,tool calling",intermediate,"python,langchain",2,0,4.6,self-paced,https://www.deeplearning.ai/short-courses
 92,Building RAG Applications,DeepLearning.AI,generative ai,"rag,vector databases,llm,embeddings",intermediate,"python,llm",2,0,4.5,self-paced,https://www.deeplearning.ai/short-courses
-93,Introduction to Data Science in Python,Coursera (U. Michigan),data science,"python,pandas,data cleaning",intermediate,"python",35,0,4.5,self-paced,https://www.coursera.org/learn/python-data-analysis
-94,Data Science for Engineers,NPTEL (IIT Madras),data science,"data science,r,statistics,regression",beginner,"",32,0,4.4,cohort,https://nptel.ac.in
-95,IBM Data Science Professional Certificate,Coursera (IBM),data science,"python,sql,data analysis,machine learning,data visualization",beginner,"",180,0,4.6,self-paced,https://www.coursera.org/professional-certificates/ibm-data-science
+93,Introduction to Data Science in Python,Coursera (U. Michigan),data science,"python,pandas,data cleaning",intermediate,python,35,0,4.5,self-paced,https://www.coursera.org/learn/python-data-analysis
+94,Data Science for Engineers,NPTEL (IIT Madras),data science,"data science,r,statistics,regression",beginner,,32,0,4.4,cohort,https://nptel.ac.in
+95,IBM Data Science Professional Certificate,Coursera (IBM),data science,"python,sql,data analysis,machine learning,data visualization",beginner,,180,0,4.6,self-paced,https://www.coursera.org/professional-certificates/ibm-data-science
 96,Time Series Analysis,Kaggle Learn,data science,"time series,forecasting,python",intermediate,"python,pandas,machine learning",5,0,4.4,self-paced,https://www.kaggle.com/learn/time-series
 97,Feature Engineering,Kaggle Learn,machine learning,"feature engineering,machine learning",intermediate,"python,pandas,machine learning",5,0,4.4,self-paced,https://www.kaggle.com/learn/feature-engineering
-98,A/B Testing,Udacity,data science,"a/b testing,statistics,experiment design",intermediate,"statistics",30,0,4.3,self-paced,https://www.udacity.com
+98,A/B Testing,Udacity,data science,"a/b testing,statistics,experiment design",intermediate,statistics,30,0,4.3,self-paced,https://www.udacity.com
 99,Embedded Systems Design,NPTEL (IIT Kharagpur),embedded systems,"embedded systems,microcontrollers,c",intermediate,"c,digital electronics",48,0,4.4,cohort,https://nptel.ac.in
 100,Robotics: Aerial Robotics,Coursera (UPenn),robotics,"robotics,control systems,drones",advanced,"linear algebra,physics,programming basics",30,0,4.5,self-paced,https://www.coursera.org/learn/robotics-flight
+101,LangChain for LLM Application Development,DeepLearning.AI,generative ai,"langchain,llm,agents,vector databases",intermediate,python,3,0,4.8,self-paced,https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/
+102,Multi-Agent Systems with crewAI,DeepLearning.AI,generative ai,"multi agent,agents,crewai,llm",intermediate,"python,langchain",3,0,4.8,self-paced,https://www.deeplearning.ai/short-courses/multi-ai-agent-systems-with-crewai/
+103,Functions Tools and Agents with LangChain,DeepLearning.AI,generative ai,"langchain,tool calling,agents,function calling",intermediate,python,3,0,4.7,self-paced,https://www.deeplearning.ai/short-courses/functions-tools-agents-langchain/
+104,Building Systems with the ChatGPT API,DeepLearning.AI,generative ai,"prompt engineering,openai api,llm,evals",beginner,python,3,0,4.8,self-paced,https://www.deeplearning.ai/short-courses/building-systems-with-chatgpt/
+105,Fine-Tuning Large Language Models,DeepLearning.AI,generative ai,"fine tuning,llm,lora,qlora,peft",advanced,"python,deep learning",4,0,4.7,self-paced,https://www.deeplearning.ai/short-courses/finetuning-large-language-models/
+106,Advanced Retrieval for AI with Chroma,DeepLearning.AI,generative ai,"rag,vector databases,chroma,embeddings",intermediate,"python,rag",3,0,4.7,self-paced,https://www.deeplearning.ai/short-courses/advanced-retrieval-for-ai/
+107,Evaluating and Debugging Generative AI Models,DeepLearning.AI,generative ai,"llm evals,wandb,prompt engineering,debugging",intermediate,python,4,0,4.6,self-paced,https://www.deeplearning.ai/short-courses/evaluating-debugging-generative-ai/
+108,Open Source Models with Hugging Face,DeepLearning.AI,generative ai,"hugging face,transformers,open source llm,quantization",intermediate,python,3,0,4.7,self-paced,https://www.deeplearning.ai/short-courses/open-source-models-hugging-face/
+109,Vector Databases: from Embeddings to Applications,DeepLearning.AI,generative ai,"vector databases,weaviate,embeddings,similarity search",intermediate,python,4,0,4.6,self-paced,https://www.deeplearning.ai/short-courses/vector-databases-embeddings-applications/
+110,Generative AI for Everyone,Coursera (DeepLearning.AI),generative ai,"generative ai,llm,business ai,prompt engineering",beginner,,6,0,4.9,self-paced,https://www.coursera.org/learn/generative-ai-for-everyone
+111,Building Multimodal Search and RAG,DeepLearning.AI,generative ai,"multimodal,clip,embeddings,vector search,rag",advanced,"python,rag",3,0,4.7,self-paced,https://www.deeplearning.ai/short-courses/multimodal-search-and-rag/
+112,LLMOps: Building Real-World Applications with LLMs,DeepLearning.AI,mlops,"llmops,deployment,monitoring,evals,prompt management",intermediate,"python,llm",4,0,4.8,self-paced,https://www.deeplearning.ai/short-courses/llmops/
+113,Hugging Face Deep RL Course,Hugging Face,reinforcement learning,"reinforcement learning,ppo,dqn,gymnasium,deep rl",advanced,"python,deep learning",40,0,4.9,self-paced,https://huggingface.co/learn/deep-rl-course
+114,Hugging Face Audio Course,Hugging Face,deep learning,"audio processing,speech recognition,whisper,transformers",intermediate,"python,deep learning",30,0,4.8,self-paced,https://huggingface.co/learn/audio-course
+115,Hugging Face Diffusion Models Class,Hugging Face,generative ai,"diffusion models,stable diffusion,image generation,generative ai",advanced,"python,deep learning",35,0,4.8,self-paced,https://github.com/huggingface/diffusion-models-class
+116,CS231n Deep Learning for Computer Vision,Stanford Online,computer vision,"computer vision,cnn,object detection,segmentation,pytorch",advanced,"python,linear algebra",60,0,4.9,self-paced,https://cs231n.stanford.edu/
+117,CS224N Natural Language Processing with Deep Learning,Stanford Online,nlp,"nlp,transformers,attention mechanism,word2vec,pytorch",advanced,"python,linear algebra",65,0,4.9,self-paced,https://web.stanford.edu/class/cs224n/
+118,CS224W Machine Learning with Graphs,Stanford Online,machine learning,"graph neural networks,gnn,networkx,pytorch geometric",advanced,"python,machine learning",50,0,4.8,self-paced,https://web.stanford.edu/class/cs224w/
+119,Mathematics for Machine Learning: Linear Algebra,Coursera (Imperial College London),mathematics,"linear algebra,matrices,eigenvalues,pca",beginner,,20,0,4.7,self-paced,https://www.coursera.org/learn/linear-algebra-machine-learning
+120,Mathematics for Machine Learning: Multivariate Calculus,Coursera (Imperial College London),mathematics,"multivariate calculus,gradients,optimization,backpropagation",intermediate,calculus,20,0,4.7,self-paced,https://www.coursera.org/learn/multivariate-calculus-machine-learning
+121,Data Engineering Zoomcamp,DataTalks.Club,data engineering,"docker,terraform,gcp,postgres,prefect,dbt,spark,kafka",intermediate,"python,sql",80,0,4.9,self-paced,https://github.com/DataTalksClub/data-engineering-zoomcamp
+122,The Complete dbt (Data Build Tool) Bootcamp,Udemy,data engineering,"dbt,sql,data modeling,analytics engineering,snowflake",intermediate,sql,14,499,4.7,self-paced,https://www.udemy.com/course/complete-dbt-data-build-tool-bootcamp/
+123,Apache Kafka Series - Learn Apache Kafka for Beginners,Udemy,data engineering,"kafka,event streaming,zookeeper,producers,consumers",intermediate,"java,python",10,499,4.7,self-paced,https://www.udemy.com/course/apache-kafka/
+124,Apache Spark with Python - Big Data with PySpark,Udemy,data engineering,"spark,pyspark,big data,dataframe api,spark streaming",intermediate,python,16,499,4.6,self-paced,https://www.udemy.com/course/spark-and-python-for-big-data-with-pyspark/
+125,Databricks Certified Data Engineer Associate Prep,Coursera (Databricks),data engineering,"databricks,delta lake,spark,sql,data pipelines",intermediate,"sql,python",25,0,4.8,self-paced,https://www.coursera.org/learn/databricks-data-engineering
+126,Data Warehousing with Snowflake,Coursera,data engineering,"snowflake,data warehousing,cloud data,sql,analytics",intermediate,sql,18,0,4.7,self-paced,https://www.coursera.org/learn/data-warehouse-snowflake
+127,MLOps Zoomcamp,DataTalks.Club,mlops,"mlops,docker,mlflow,prefect,evidently,aws,monitoring",intermediate,"python,machine learning",70,0,4.9,self-paced,https://github.com/DataTalksClub/mlops-zoomcamp
+128,Machine Learning Engineering for Production (MLOps) Specialization,Coursera (DeepLearning.AI),mlops,"mlops,model deployment,data pipelines,model monitoring,tfx",intermediate,"python,machine learning",60,0,4.8,self-paced,https://www.coursera.org/specializations/machine-learning-engineering-for-production-mlops
+129,Full Stack Deep Learning,FSDL,mlops,"mlops,llm applications,evals,deployment,ci/cd,gpus",advanced,"python,deep learning",40,0,4.9,self-paced,https://fullstackdeeplearning.com/
+130,Made With ML,Made With ML,mlops,"mlops,fastapi,ray,github actions,testing,production ml",intermediate,"python,machine learning",30,0,4.9,self-paced,https://madewithml.com/
+131,DevOps with Docker,University of Helsinki,devops,"docker,docker compose,containers,networking,volumes",beginner,,30,0,4.9,self-paced,https://devopswithdocker.com
+132,DevOps with Kubernetes,University of Helsinki,devops,"kubernetes,helm,k8s,cloud native,monitoring",intermediate,docker,40,0,4.9,self-paced,https://devopswithkubernetes.com
+133,Docker and Kubernetes: The Complete Guide,Udemy,devops,"docker,kubernetes,microservices,ci/cd,aws",intermediate,programming basics,24,499,4.8,self-paced,https://www.udemy.com/course/docker-and-kubernetes-the-complete-guide/
+134,HashiCorp Certified: Terraform Associate,Udemy,cloud,"terraform,iac,aws,infrastructure as code,cloud automation",intermediate,cloud basics,15,499,4.8,self-paced,https://www.udemy.com/course/terraform-beginner-to-advanced/
+135,AWS Certified Solutions Architect Associate (SAA-C03),Udemy (Stephane Maarek),cloud,"aws,ec2,s3,vpc,lambda,iam,cloud architecture",intermediate,cloud basics,28,499,4.8,self-paced,https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c03/
+136,Google Cloud Associate Cloud Engineer,Coursera (Google Cloud),cloud,"gcp,google cloud,compute engine,gke,cloud storage,iam",intermediate,linux basics,35,0,4.7,self-paced,https://www.coursera.org/professional-certificates/google-cloud-engineer
+137,Microsoft Azure Fundamentals (AZ-900),Microsoft Learn,cloud,"azure,cloud concepts,azure services,security,compliance",beginner,,15,0,4.8,self-paced,https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/
+138,GitHub Actions: The Complete Guide,Udemy,devops,"github actions,ci/cd,devops,automation,workflows",intermediate,git,12,499,4.7,self-paced,https://www.udemy.com/course/github-actions-the-complete-guide/
+139,Introduction to Linux (LFS101x),edX (Linux Foundation),devops,"linux,bash,cli,system administration,permissions",beginner,,40,0,4.7,self-paced,https://www.edx.org/learn/linux/the-linux-foundation-introduction-to-linux
+140,Linux Command Line Basics,Udacity,devops,"linux,bash,shell scripting,terminal,navigation",beginner,,10,0,4.6,self-paced,https://www.udacity.com/course/linux-command-line-basics--ud595
+141,Full Stack Open,University of Helsinki,web development,"react,nodejs,express,mongodb,typescript,graphql,rest api",intermediate,javascript,120,0,4.9,self-paced,https://fullstackopen.com/en/
+142,The Odin Project: Full Stack JavaScript,The Odin Project,web development,"html,css,javascript,react,nodejs,express,postgresql",beginner,,200,0,4.9,self-paced,https://www.theodinproject.com/paths/full-stack-javascript
+143,Next.js 14 & React - The Complete Guide,Udemy,web development,"nextjs,react,ssr,server components,typescript,tailwind",intermediate,"javascript,react",32,499,4.8,self-paced,https://www.udemy.com/course/nextjs-react-the-complete-guide/
+144,FastAPI - The Complete Course,FastAPI Official / Tiangolo,web development,"fastapi,python,async,pydantic,rest api,swagger",intermediate,python,18,0,4.9,self-paced,https://fastapi.tiangolo.com/tutorial/
+145,TypeScript - The Complete Developer's Guide,Udemy,web development,"typescript,javascript,oop,generics,types",intermediate,javascript,24,499,4.7,self-paced,https://www.udemy.com/course/typescript-the-complete-developers-guide/
+146,Tailwind CSS: From Zero to Production,Tailwind Labs,web development,"tailwind css,responsive design,flexbox,css grid",beginner,"html,css",8,0,4.9,self-paced,https://tailwindcss.com/docs
+147,System Design Interview – An Insider's Guide,ByteByteGo / Alex Xu,software engineering,"system design,scalability,microservices,caching,load balancing",advanced,software engineering,25,1200,4.9,self-paced,https://bytebytego.com/
+148,The Rust Programming Language,Rust Foundation,programming,"rust,systems programming,memory safety,concurrency,ownership",intermediate,programming basics,40,0,4.9,self-paced,https://doc.rust-lang.org/book/
+149,Go: The Complete Developer's Guide (Golang),Udemy,programming,"golang,go,concurrency,goroutines,channels,interfaces",intermediate,programming basics,18,499,4.7,self-paced,https://www.udemy.com/course/go-the-complete-developers-guide/
+150,Learn Go with Tests,Chris James / GitHub,programming,"go,tdd,unit testing,benchmarking,interfaces",intermediate,programming basics,25,0,4.9,self-paced,https://quii.gitbook.io/learn-go-with-tests
+151,Practical Ethical Hacking,TCM Security,cybersecurity,"ethical hacking,penetration testing,network scanning,metasploit",beginner,networking basics,25,999,4.9,self-paced,https://academy.tcm-sec.com/p/practical-ethical-hacking-the-complete-course
+152,Google Cybersecurity Professional Certificate,Coursera (Google),cybersecurity,"cybersecurity,siem,python,linux,sql,ids,network security",beginner,,120,0,4.8,self-paced,https://www.coursera.org/professional-certificates/google-cybersecurity
+153,Web Application Penetration Testing,PortSwigger,cybersecurity,"burp suite,sql injection,xss,csrf,auth bypass",intermediate,web basics,40,0,4.9,self-paced,https://portswigger.net/web-security
+154,TryHackMe: Pre-Security & Complete Beginner,TryHackMe,cybersecurity,"cybersecurity,linux,networking,web fundamentals",beginner,,30,0,4.8,self-paced,https://tryhackme.com/path/outline/beginner
+155,Google Data Analytics Professional Certificate,Coursera (Google),data science,"data analytics,spreadsheets,sql,r,tableau",beginner,,180,0,4.8,self-paced,https://www.coursera.org/professional-certificates/google-data-analytics
+156,Applied Data Science with Python Specialization,Coursera (U. Michigan),data science,"python,pandas,matplotlib,scikit learn,networkx,nltk",intermediate,python,80,0,4.6,self-paced,https://www.coursera.org/specializations/data-science-python
+157,Data Analysis with Polars,DeepLearning.AI,data science,"polars,data analysis,dataframes,fast data processing,rust engine",intermediate,python,3,0,4.8,self-paced,https://www.deeplearning.ai/short-courses/
+158,Causal Inference and A/B Testing,Coursera,data science,"causal inference,a/b testing,econometrics,python,experimentation",advanced,"statistics,python",25,0,4.7,self-paced,https://www.coursera.org/learn/causal-inference
+159,Tableau for Data Science Masterclass,Udemy,data science,"tableau,data visualization,dashboards,business intelligence",beginner,,15,499,4.6,self-paced,https://www.udemy.com/course/tableau10/
+160,Power BI A-Z: Hands-On Power BI for Data Science,Udemy,business,"power bi,dax,dashboards,business intelligence,data modeling",beginner,,16,499,4.6,self-paced,https://www.udemy.com/course/powerbi-complete/
+161,Introduction to Computer Science and Programming in Python (6.0001),MIT OpenCourseWare,computer science,"python,algorithms,recursion,computational thinking",beginner,,45,0,4.9,self-paced,https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/
+162,Introduction to Algorithms (6.006),MIT OpenCourseWare,computer science,"algorithms,data structures,dynamic programming,graphs,trees",intermediate,"python,discrete math",60,0,4.9,self-paced,https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/
+163,Mathematics for Computer Science (6.042J),MIT OpenCourseWare,mathematics,"discrete math,graph theory,proofs,probability,number theory",intermediate,calculus,50,0,4.9,self-paced,https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/
+164,Operating Systems: Three Easy Pieces,OSTEP / Arpaci-Dusseau,computer science,"operating systems,virtualization,concurrency,persistence,c",intermediate,"c,computer systems",50,0,4.9,self-paced,https://pages.cs.wisc.edu/~remzi/OSTEP/
+165,Computer Networking: A Top-Down Approach,Kurose & Ross / Coursera,networking,"networking,tcp/ip,dns,http,routing,sockets",intermediate,programming basics,35,0,4.8,self-paced,https://www.coursera.org/learn/computer-networking

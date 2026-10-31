@@ -107,7 +107,7 @@ flowchart TD
 
 ### Specialized Tools
 
-1. **`search_course_db`**: Fast keyword & metadata queries over local SQLite catalog (100 curated courses across AI, ML, Cloud, DevOps, and Data Science).
+1. **`search_course_db`**: Fast keyword & metadata queries over local SQLite catalog (165 curated courses across AI, ML, Cloud, DevOps, and Data Science).
 2. **`web_course_search`**: Keyless DuckDuckGo search for real-time course discovery beyond the catalog.
 3. **`check_prerequisites`**: Verifies prerequisite DAGs (e.g., Python required before Deep Learning).
 4. **`python_sandbox`**: Safe in-memory Python execution calculating workload sums, weekly distributions, and constraint checks.
@@ -266,7 +266,7 @@ course-recommendation-agent/
 │   ├── llm.py                     # LLM factory, fallback cascade & JSON extraction
 │   └── tools.py                   # ReAct tools (catalog, web search, sandbox, prereqs)
 ├── data/                          # Data Layer
-│   ├── courses.csv                # 100 curated courses with skills, levels, hours, prices
+│   ├── courses.csv                # 165 curated courses with skills, levels, hours, prices
 │   └── courses.db                 # Auto-seeded SQLite database (git-ignored)
 ├── memory/                        # Long-term Agent Memory
 │   └── .gitkeep                   # Disk-backed user profile persistence directory
