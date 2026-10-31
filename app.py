@@ -45,6 +45,12 @@ class MockCheckpointer:
     def set(self, thread_id: str, state: dict):
         self.storage[thread_id] = state
 
+    def values(self):
+        return self.storage.values()
+
+    def __bool__(self):
+        return bool(self.storage)
+
 
 _MOCK_CHECKPOINTER = MockCheckpointer()
 
@@ -650,12 +656,19 @@ def clean_html(raw: str) -> str:
 
 def render_html(html_str: str, container=None):
     """Safely renders HTML without markdown parsing converting it to code blocks."""
+    if not html_str:
+        return
     cleaned = clean_html(html_str)
+    if not cleaned:
+        return
     target = container or st
     if hasattr(target, "html"):
-        target.html(cleaned)
-    else:
-        target.markdown(cleaned, unsafe_allow_html=True)
+        try:
+            target.html(cleaned)
+            return
+        except Exception:
+            pass
+    target.markdown(cleaned, unsafe_allow_html=True)
 
 
 render_html(APP_CSS)
@@ -704,17 +717,24 @@ def init_session_state():
     ss.setdefault("inspected_turn_idx", -1)
 
 
-def get_current_graph_state() -> dict:
+def get_current_graph_state(thread_id: str | None = None) -> dict:
+    tid = thread_id or (st.session_state.get("thread_id") if hasattr(st, "session_state") else None)
+    if not tid:
+        if _MOCK_CHECKPOINTER:
+            return list(_MOCK_CHECKPOINTER.values())[-1]
+        return {}
     try:
-        snap = get_graph().get_state({"configurable": {"thread_id": st.session_state.thread_id}})
+        snap = get_graph().get_state({"configurable": {"thread_id": tid}})
         val = snap.values or {}
         if val.get("path"):
             return val
     except Exception:
         pass
-    mock_val = _MOCK_CHECKPOINTER.get(st.session_state.thread_id)
+    mock_val = _MOCK_CHECKPOINTER.get(tid)
     if mock_val:
         return mock_val
+    if _MOCK_CHECKPOINTER:
+        return list(_MOCK_CHECKPOINTER.values())[-1]
     return {}
 
 

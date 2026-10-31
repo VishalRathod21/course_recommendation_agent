@@ -4,3 +4,7 @@ __pycache__/
 data/courses.db
 memory/*.json
 .venv/
+.venv_linux/
+screenshots/*.html
+.DS_Store
+
