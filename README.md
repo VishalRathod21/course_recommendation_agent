@@ -24,47 +24,6 @@ Every trajectory is constrained by the learner's **weekly bandwidth**, **timelin
 
 ---
 
-## Visual Showcase
-
-The interface is built with a custom sci-fi mission control theme (`#070B14` deep space backdrop, drifting CSS aurora, hairline glassmorphism, Space Grotesk / Inter / JetBrains Mono typography).
-
-### 1. Launchpad & Hero Preset Matrix
-> Fast-track mission presets with glowing hover cards for instant trajectory plotting.
-
-![Launchpad](screenshots/1_empty_hero.png)
-
----
-
-### 2. Live Flight Deck (Mid-Run Telemetry)
-> Real-time stateful node pipeline SVG, live streaming telemetry console, and circular SVG vitals gauges.
-
-![Mid-Run Active](screenshots/2_mid_run_active.png)
-
----
-
-### 3. The Signature Metro Route Map & Skill Radar
-> Ordered station milestones (`01` $\rightarrow$ `05`), verified direct course links, workload allocation bars, prerequisite detours, and projected skill growth radar.
-
-![Finished Route Map](screenshots/3_finished_route_map.png)
-
----
-
-### 4. Self-Correction & Fault Recovery
-> Intercepting upstream API rate limits (Groq 429) or simulated web search outages, gracefully pivoting to fallback models or the autonomous local engine.
-
-![Error & Fallback](screenshots/4_error_fallback.png)
-
----
-
-### 5. Adaptive Mobile View (400px)
-> Collapsible single-column layout optimized for mobile screens without losing telemetry or route fidelity.
-
-<div align="center">
-<img src="screenshots/5_mobile_width.png" width="420" alt="Mobile Cockpit">
-</div>
-
----
-
 ## Architecture
 
 The system is powered by a cyclic **LangGraph** state machine equipped with conditional edges, dynamic tool routing, isolated Python code execution, and checkpointer state retention:
